@@ -1,0 +1,25 @@
+/*Div de acerca de*/
+div{
+    background-color: rgb(99, 158, 206);
+    text-align: center;
+}
+
+/*foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+         width: 13%; 
+         border-radius: 100%;
+         left: 3%;
+         top: 630px;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+         width: 33%; 
+         border-radius: 100%;
+         left: 35%;
+         top: 510px;
+    }
+}
